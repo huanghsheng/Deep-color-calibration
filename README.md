@@ -39,7 +39,6 @@ Use the script of test_seg5.py, where the following parameters have to be define
 
 ## Evaluation
 evaluate1.py: Evaluation for the color cast with the metrics of KL divergence and Hellinger distance.
-
 evaluate2.py: Evaluation for the loss of spatial details.
 
 
