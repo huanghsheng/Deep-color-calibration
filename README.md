@@ -1,4 +1,4 @@
-# Pytorch_Adain_from_scratch
+# Deep color calibration
 Pytorch implementation of [Deep Color Calibration for UAV Imagery in Crop Monitoring Using Semantic Style Transfer with Local to Global Attention](https://www.sciencedirect.com/science/article/pii/S030324342100297X).
 
 This project aims to build a general framework for color calibration in agricultural UAV remote sensing.
