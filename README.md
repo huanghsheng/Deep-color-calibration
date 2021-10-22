@@ -10,7 +10,7 @@ This project aims to build a general framework for color calibration in agricult
 - Python 3.6
 - PyTorch 1.5.1
 - TorchVision
-Anaconda environment recommended here!
+- Anaconda environment recommended here!
 - GPU environment is required for training and testing
 
 
@@ -20,6 +20,7 @@ Anaconda environment recommended here!
 The dataset used in this study includes the UAV imagery of rice, bean, and cotton(CropUAVDataset). The imagery were collected at different sites and different dates, where the ortho-mosaics present siginifcant color cast and color inconsistency. The dataset is available at https://drive.google.com/drive/folders/15TETGMJxQvuBOqjCTGQPu5OTCizF4pPK.
 After downloading, the dataset should be placed at the "data" folder under the project.
 For more details on our dataset, you can refer to our paper [Deep Color Calibration for UAV Imagery in Crop Monitoring Using Semantic Style Transfer with Local to Global Attention](https://www.sciencedirect.com/science/article/pii/S030324342100297X).
+
 
 ## Testing
 Use the script of test_seg5.py, where the following parameters have to be defined in the script:
