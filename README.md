@@ -22,9 +22,13 @@ After downloading, the dataset should be placed at the "data" folder under the p
 For more details on our dataset, you can refer to our paper [Deep Color Calibration for UAV Imagery in Crop Monitoring Using Semantic Style Transfer with Local to Global Attention](https://www.sciencedirect.com/science/article/pii/S030324342100297X).
 
 During our experiments, one single reference image was selected for the image sequences of one UAV flight. For the experimental results in our paper, the reference images were selected as follows:
+
 2017-9-30:  DJI_0426_4_4.png
+
 2018-10-8:  DJI_0481_3_3.png
+
 2017-7-15-field1:  DJI_0068_4_1.png
+
 2017-7-15-field2:  DJI_0258_1_0.png
 
 ## Testing
