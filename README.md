@@ -26,15 +26,12 @@ For more details on our dataset, you can refer to our paper [Deep Color Calibrat
 Use the script of test_seg5.py, where the following parameters have to be defined in the script:
     # args.model_state_path is the directory where the trained model was saved
     # In this implementation, three trained models (for rice, bean, and cotton) were saved under the directory of ./result/model_state
-    
-    args.model_state_path = './result/model_state/rice.pth'
+        args.model_state_path = './result/model_state/rice.pth'
     
     # args.content_dir is the file that record the testing samples
-    
     args.content_dir = './data/val_rice.txt'
     
     # args.style is the reference image
-    
     args.style = './data/2017-9-30/images/DJI_0426_4_4.png'
     
     args.out_dir = './result/test_outputs'
