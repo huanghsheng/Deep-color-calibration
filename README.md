@@ -39,16 +39,22 @@ Use the script of test_seg5.py, where the following parameters have to be define
 
 ## Evaluation
 evaluate1.py: Evaluation for the color cast with the metrics of KL divergence and Hellinger distance.
+
 evaluate2.py: Evaluation for the loss of spatial details.
 
 
 ## Traning
 Use the script of train_seg5.py, where the following parameters have to be defined in the script:
+
     args.batch_size = 1
+    
     args.epoch = 100 
+    
     args.snapshot_interval = 100
+    
     # args.semantic_train_txt is the file containing the training samples	
     args.semantic_train_txt = './data/train_rice.txt'
+    
     # args.semantic_train_txt is the file containing the testing samples
     args.semantic_test_txt = './data/val_rice.txt'
 
